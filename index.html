@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>HTML FORM</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div id="fbForm" class="fbForm">
+        <div class="fbForm__dang-nhap">
+            <form name="DNForm" action="#" method="POST">
+                <div class="fbForm__dang-nhap__field fbForm__dang-nhap__email">
+                    <label for="DN-email">Email</label>
+                    <input type="text" name="email" id="DN-email" placeholder="Type Email...">
+                    <input type="checkbox" name="" id="">
+                    <span>Duy trì đăng nhập</span>
+                </div>
+                <div class="fbForm__dang-nhap__field fbForm__dang-nhap__password">
+                    <label for="DN-password">Password</label>
+                    <input type="password" name="password" id="DN-password" placeholder="Type Password..." maxlength="10">
+                    <a href="#">Quên mật khẩu?</a>
+                </div>
+                <div class="fbForm__dang-nhap__field fbForm__dang-nhap__email">
+                    <button class="fbForm__dang-nhap__btn" type="submit">Login</button>
+                    <button class="fbForm__dang-nhap__btn" type="reset">Reset</button>
+                </div>
+                <div class="clear"></div>
+            </form>
+        </div>
+        <div class="fbForm__dang-ky">
+            <h1>Sign Up</h1>
+            <p>It's free and always will be</p>
+            <form action="#" method="post" name="DK-Form">
+                <div class="fbForm__dang-ky__field fbForm__dang-ky__fname">
+                    <label for="fname">First Name: </label>
+                    <input type="text" name="fname" id="fname" placeholder="Type your First name ...">
+                </div>
+
+                <div class="fbForm__dang-ky__field fbForm__dang-ky__lname">
+                    <label for="lname">Last Name: </label>
+                    <input type="text" name="lname" id="lname" placeholder="Type your Last name ...">
+                </div>
+
+                <div class="fbForm__dang-ky__field fbForm__dang-ky__email">
+                    <label for="email">Email: </label>
+                    <input type="text" name="email" id="email" placeholder="Type your Email ...">
+                </div>
+
+                <div class="fbForm__dang-ky__field fbForm__dang-ky__phone">
+                    <label for="phone">Phone number: </label>
+                    <input type="number" name="phone" id="phone" placeholder="Type your Phone ...">
+                </div>
+
+                <div class="fbForm__dang-ky__field fbForm__dang-ky__job">
+                    <label>You are: </label>
+                    <input type="radio" name="job" id="congchuc" />
+                    <span>Worker</span>
+                    <input type="radio" name="job" id="congnhan" />
+                    <span>Teacher</span>
+                    <input type="radio" name="job" id="sinhvien" />
+                    <span>Student</span>
+                </div>
+
+                <div class="fbForm__dang-ky__field fbForm__dang-ky__hobby">
+                    <label>Hobby: </label>
+                    <textarea name="hobby" id="hobby" rows="10" placeholder="Type your hobby ..."></textarea>
+                </div>
+
+                <div class="fbForm__dang-ky__field fbForm__dang-ky__birth">
+                    <label>Birthday: </label>
+                    <select name="date" id="date">
+                        <option value="0">Day</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                    </select>
+
+                    <select name="month" id="month">
+                        <option value="0">Month</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                        <option value="11">11</option>
+                        <option value="12">12</option>
+                    </select>
+
+                    <select name="year" id="year">
+                        <option value="0">Year</option>
+                        <option value="1">2015</option>
+                        <option value="2">2016</option>
+                        <option value="3">2017</option>
+                        <option value="4">2018</option>
+                        <option value="5">2019</option>
+                    </select>
+                </div>
+
+                <div class="fbForm__dang-ky__field fbForm__dang-ky__btn">
+                    <input type="submit" value="Sign Up" />
+                    <input type="reset" value="Reset" />
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

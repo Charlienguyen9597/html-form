@@ -1,0 +1,106 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+*{
+    box-sizing: border-box;
+}
+.clear{
+    clear: both;
+}
+.fbForm{
+    width: 50%;
+    margin: 0 auto;
+}
+.fbForm__dang-nhap{
+    background-color: #4568B0;
+    color: white;
+    padding: 15px 0;
+}
+.fbForm__dang-nhap label,.fbForm__dang-nhap span,.fbForm__dang-nhap a{
+    font-size: 14px;
+}
+.fbForm__dang-nhap__field{
+    float: left;
+    width: 33%;
+    padding: 0 10px;
+}
+.fbForm__dang-nhap__field input[type="text"],input[type="password"]{
+    width: 100%;
+    height: 25px;
+    margin: 5px 0;
+}
+.fbForm__dang-nhap__field input[type="checkbox"]{
+    transform: translate(0,2px);
+}
+.fbForm__dang-nhap__password a{
+    color: white;
+    text-decoration: none;
+}
+.fbForm__dang-nhap__btn{
+    background-color: #688bd3;
+    border: 1px solid black;
+    color: white;
+    height: 28px;
+    padding: 0 20px;
+    margin-top: 22px;
+}
+.fbForm__dang-nhap__btn:hover{
+    background-color: #0b3385;
+    cursor: pointer;
+}
+
+.fbForm__dang-ky{
+    background-color: #d4d9e9;
+    padding: 20px 7% 20px 30px;
+}
+.fbForm__dang-ky > h1{
+    margin: 0;
+}
+.fbForm__dang-ky > p{
+    margin-top: 5px;
+    border-bottom: 2px solid black;
+    padding-bottom: 10px;
+}
+.fbForm__dang-ky__field{
+    margin-bottom: 10px;
+}
+.fbForm__dang-ky__field label{
+    width: 20%;
+    display: inline-block;
+    text-align: right;
+    padding-right: 20px;
+}
+.fbForm__dang-ky__field input[type="text"]{
+    width: 79.37%;
+    height: 28px;
+}
+.fbForm__dang-ky__hobby textarea{
+    width: 79.37%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.fbForm__dang-ky__hobby label{
+    vertical-align: top;
+    transform: translate(0,5px);
+}
+.fbForm__dang-ky__birth select{
+    width: 20%;
+    height: 30px;
+}
+.fbForm__dang-ky__btn{
+    text-align: center;
+    margin-top: 20px;
+}
+.fbForm__dang-ky__btn input{
+    height: 30px;
+    padding: 0 20px;
+    background-color: #5e974a;
+    border: 1px solid #5e974a;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+/* Thay đổi thuộc tính của PLACEHOLDER */
+input::placeholder{
+    color: red;
+}
